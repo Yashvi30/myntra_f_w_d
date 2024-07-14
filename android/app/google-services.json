@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "87679212083",
+    "project_id": "myntrafwd",
+    "storage_bucket": "myntrafwd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87679212083:android:6f0f3734f20878d9f0e146",
+        "android_client_info": {
+          "package_name": "com.mycompany.myntrafwd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg5jrmqId7G_5qPwnmaV_QStTjzGlv9O0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
