@@ -416,10 +416,15 @@ class _FashhubWidgetState extends State<FashhubWidget>
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 8.0, 8.0, 0.0),
                                     child: wrapWithModel(
-                                      model: _model.masterclassCardModel1,
-                                      updateCallback: () => setState(() {}),
-                                      child: MasterclassCardWidget(),
-                                    ),
+                                        model: _model.masterclassCardModel1,
+                                        updateCallback: () => setState(() {}),
+                                        child: MasterclassCardWidget(
+                                          title: "Creating Evening Wear",
+                                          desc:
+                                              "Master the art of designing elegant evening wear with Emma Brown.",
+                                          imageUrl:
+                                              'https://plus.unsplash.com/premium_photo-1658506769769-1333c0daf55d?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                                        )),
                                   ),
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
@@ -434,17 +439,27 @@ class _FashhubWidgetState extends State<FashhubWidget>
                                             .pushNamed('MasterClassRegister');
                                       },
                                       child: wrapWithModel(
-                                        model: _model.masterclassCardModel2,
-                                        updateCallback: () => setState(() {}),
-                                        child: MasterclassCardWidget(),
-                                      ),
+                                          model: _model.masterclassCardModel2,
+                                          updateCallback: () => setState(() {}),
+                                          child: MasterclassCardWidget(
+                                            title: "Fabric Fundamentals",
+                                            desc:
+                                                "Discover how to choose the perfect fabric for your designs with John Smith.",
+                                            imageUrl:
+                                                'https://images.unsplash.com/photo-1536867520774-5b4f2628a69b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxmYWJyaWMlMjB8ZW58MHx8fHwxNzIwOTAxMzkxfDA&ixlib=rb-4.0.3&q=80&w=1080',
+                                          )),
                                     ),
                                   ),
                                   wrapWithModel(
-                                    model: _model.masterclassCardModel3,
-                                    updateCallback: () => setState(() {}),
-                                    child: MasterclassCardWidget(),
-                                  ),
+                                      model: _model.masterclassCardModel3,
+                                      updateCallback: () => setState(() {}),
+                                      child: MasterclassCardWidget(
+                                        title: "Trend Forecasting",
+                                        desc:
+                                            "Stay ahead of the curve with Mia White's trend forecasting workshop",
+                                        imageUrl:
+                                            'https://images.unsplash.com/photo-1625204614387-6509254d5b02?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                                      )),
                                 ],
                               ),
                             ),
@@ -835,7 +850,7 @@ class _FashhubWidgetState extends State<FashhubWidget>
                                                 borderRadius:
                                                     BorderRadius.circular(8.0),
                                                 child: Image.network(
-                                                  'https://images.unsplash.com/photo-1519748771451-a94c596fad67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw1fHxmYXNoaW9uJTIwZGVzaWduaW5nfGVufDB8fHx8MTcyMDg3Nzc3NXww&ixlib=rb-4.0.3&q=80&w=1080',
+                                                  'https://images.unsplash.com/photo-1557777586-f6682739fcf3?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                                                   width: double.infinity,
                                                   height: 276.0,
                                                   fit: BoxFit.cover,
