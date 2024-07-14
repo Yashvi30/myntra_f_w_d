@@ -1,8 +1,8 @@
 import '/components/top_nav_widget.dart';
-import '/flutter_flow/flutter_flow_animations.dart';
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
-import '/flutter_flow/flutter_flow_widgets.dart';
+import '../../flutter_nav/flutter_flow_animations.dart';
+import '../../flutter_nav/flutter_flow_theme.dart';
+import '../../flutter_nav/flutter_flow_util.dart';
+import '../../flutter_nav/flutter_flow_widgets.dart';
 import 'dart:math';
 import 'home_widget.dart' show HomeWidget;
 import 'package:flutter/material.dart';

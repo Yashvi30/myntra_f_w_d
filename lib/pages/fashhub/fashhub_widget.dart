@@ -1,9 +1,9 @@
 import '/components/masterclass_card_widget.dart';
 import '/components/top_nav_widget.dart';
-import '/flutter_flow/flutter_flow_animations.dart';
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
-import '/flutter_flow/flutter_flow_widgets.dart';
+import '../../flutter_nav/flutter_flow_animations.dart';
+import '../../flutter_nav/flutter_flow_theme.dart';
+import '../../flutter_nav/flutter_flow_util.dart';
+import '../../flutter_nav/flutter_flow_widgets.dart';
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
