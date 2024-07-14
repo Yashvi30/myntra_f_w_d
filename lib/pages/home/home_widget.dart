@@ -501,7 +501,7 @@ class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Hero(
-                                              tag: 'locationImage',
+                                              tag: 'locationImage1',
                                               transitionOnUserGestures: true,
                                               child: ClipRRect(
                                                 borderRadius:
@@ -668,7 +668,7 @@ class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Hero(
-                                            tag: 'locationImage',
+                                            tag: 'locationImage2',
                                             transitionOnUserGestures: true,
                                             child: ClipRRect(
                                               borderRadius:

@@ -535,7 +535,7 @@ class _FashhubWidgetState extends State<FashhubWidget>
                                                 context.pushNamed('Videopage');
                                               },
                                               child: Hero(
-                                                tag: 'locationImage',
+                                                tag: 'locationImage1',
                                                 transitionOnUserGestures: true,
                                                 child: ClipRRect(
                                                   borderRadius:
@@ -683,7 +683,7 @@ class _FashhubWidgetState extends State<FashhubWidget>
                                               AlignmentDirectional(0.0, 0.8),
                                           children: [
                                             Hero(
-                                              tag: 'locationImage',
+                                              tag: 'locationImage2',
                                               transitionOnUserGestures: true,
                                               child: ClipRRect(
                                                 borderRadius:
@@ -829,7 +829,7 @@ class _FashhubWidgetState extends State<FashhubWidget>
                                               AlignmentDirectional(0.0, 0.8),
                                           children: [
                                             Hero(
-                                              tag: 'locationImage',
+                                              tag: 'locationImage3',
                                               transitionOnUserGestures: true,
                                               child: ClipRRect(
                                                 borderRadius:
@@ -975,7 +975,7 @@ class _FashhubWidgetState extends State<FashhubWidget>
                                               AlignmentDirectional(0.0, 0.8),
                                           children: [
                                             Hero(
-                                              tag: 'locationImage',
+                                              tag: 'locationImage4',
                                               transitionOnUserGestures: true,
                                               child: ClipRRect(
                                                 borderRadius:
@@ -1166,7 +1166,7 @@ class _FashhubWidgetState extends State<FashhubWidget>
                                           CrossAxisAlignment.start,
                                       children: [
                                         Hero(
-                                          tag: 'locationImage',
+                                          tag: 'locationImage5',
                                           transitionOnUserGestures: true,
                                           child: ClipRRect(
                                             borderRadius:
@@ -1244,7 +1244,7 @@ class _FashhubWidgetState extends State<FashhubWidget>
                                             CrossAxisAlignment.start,
                                         children: [
                                           Hero(
-                                            tag: 'locationImage',
+                                            tag: 'locationImage6',
                                             transitionOnUserGestures: true,
                                             child: ClipRRect(
                                               borderRadius:
@@ -1311,7 +1311,7 @@ class _FashhubWidgetState extends State<FashhubWidget>
                                           CrossAxisAlignment.start,
                                       children: [
                                         Hero(
-                                          tag: 'locationImage',
+                                          tag: 'locationImage7',
                                           transitionOnUserGestures: true,
                                           child: ClipRRect(
                                             borderRadius:
