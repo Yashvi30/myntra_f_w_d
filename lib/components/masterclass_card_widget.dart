@@ -7,7 +7,15 @@ import 'masterclass_card_model.dart';
 export 'masterclass_card_model.dart';
 
 class MasterclassCardWidget extends StatefulWidget {
-  const MasterclassCardWidget({super.key});
+  final String imageUrl;
+  final String title;
+  final String desc;
+  const MasterclassCardWidget({
+    super.key,
+    required this.imageUrl,
+    required this.desc,
+    required this.title,
+  });
 
   @override
   State<MasterclassCardWidget> createState() => _MasterclassCardWidgetState();
@@ -76,7 +84,7 @@ class _MasterclassCardWidgetState extends State<MasterclassCardWidget> {
                       topRight: Radius.circular(12.0),
                     ),
                     child: Image.network(
-                      'https://images.unsplash.com/photo-1606489236892-ed5989dd023a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwyMnx8Z293bnxlbnwwfHx8fDE3MjA4NjIwNTZ8MA&ixlib=rb-4.0.3&q=80&w=1080',
+                      widget.imageUrl,
                       width: double.infinity,
                       height: 200.0,
                       fit: BoxFit.cover,
@@ -127,7 +135,7 @@ class _MasterclassCardWidgetState extends State<MasterclassCardWidget> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    'Creating Evening Wear',
+                                    widget.title,
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
@@ -139,7 +147,7 @@ class _MasterclassCardWidgetState extends State<MasterclassCardWidget> {
                                         ),
                                   ),
                                   Text(
-                                    'Master the art of designing elegant evening \nwear with Emma Brown',
+                                    widget.desc,
                                     style: FlutterFlowTheme.of(context)
                                         .bodyLarge
                                         .override(
