@@ -187,9 +187,7 @@ class _FashhubWidgetState extends State<FashhubWidget>
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => _model.unfocusNode.canRequestFocus
-          ? FocusScope.of(context).requestFocus(_model.unfocusNode)
-          : FocusScope.of(context).unfocus(),
+      onTap: () => {},
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
@@ -555,8 +553,7 @@ class _FashhubWidgetState extends State<FashhubWidget>
                                               },
                                               child: ClipRRect(
                                                 borderRadius:
-                                                    BorderRadius.circular(
-                                                        8.0),
+                                                    BorderRadius.circular(8.0),
                                                 child: Image.network(
                                                   'https://images.unsplash.com/photo-1587088155172-e9355df99c30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxOHx8cnVud2F5fGVufDB8fHx8MTcyMDg3NzY5OHww&ixlib=rb-4.0.3&q=80&w=1080',
                                                   width: double.infinity,
