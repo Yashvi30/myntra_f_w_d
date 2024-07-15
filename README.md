@@ -33,14 +33,14 @@ The Aimers team at Myntra Hackerramp 2024 presented innovative solutions to enha
 - **Description:** Exclusive insights into fashion shows,manufacturing processes and photoshoots.
 - **Benefits:** Provides inspiration and a deeper connection to the fashion industry.
 
-### 3. Fashion Design Competitions
+### 3. Shared Wishlists with Group Chat Features
+- **Description:** Users can create and share wishlists and chat with fellow fashion enthusiasts,friends and family.
+- **Benefits:** Social interaction, trend discussion, and style tips exchange.
+
+### 4. Fashion Design Competitions
 - **Description:** Events for users to submit and vote on fashion designs.
 - **Rewards:** Winning designs get sold on Myntra.
 - **Benefits:** Platform for creativity, recognition, and involvement in fashion buzz.
-
-### 4. Shared Wishlists with Chat Features
-- **Description:** Users can create and share wishlists and chat with fellow fashion enthusiasts,friends and family.
-- **Benefits:** Social interaction, trend discussion, and style tips exchange.
 
 ### 5. Fashion Designers' Masterclasses
 - **Description:** Workshops and classes conducted by top fashion designers.
