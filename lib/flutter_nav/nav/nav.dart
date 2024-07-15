@@ -134,6 +134,16 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'Product',
           path: '/product',
           builder: (context, params) => ProductWidget(),
+        ),
+        FFRoute(
+          name: 'CompetitionPage',
+          path: '/competitionPage',
+          builder: (context, params) => CompetitionPageWidget(),
+        ),
+        FFRoute(
+          name: 'ChallengesPage',
+          path: '/challengesPage',
+          builder: (context, params) => ChallengesPageWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
