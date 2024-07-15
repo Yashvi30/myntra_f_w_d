@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crossword Puzzle</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="initializeScreen()">
+    <div id="leftBox">
+        <table id="puzzle"></table>
+    </div>
+    <div id="rightBox">
+        <table>
+            <tr>
+                <td><input class="butt" type="submit" value="Clear All" onclick="clearAllClicked()"></td>
+                <td><input class="butt" type="submit" value="Check" onclick="checkClicked()"></td>
+                <td><input class="butt" type="submit" value="Solve" onclick="solveClicked()"></td>
+                <td><input class="butt" type="submit" value="Clue" onclick="clueClicked()"></td>
+            </tr>
+        </table>
+    </div>
+    <table id="hintsTable">
+        <tr>
+            <td><strong>Horizontal:</strong></td><td><strong>Vertical:</strong></td>
+        </tr>
+        <tr>
+            <td>3. City known for its blend of traditional and contemporary fashion</td><td>1. Event where shoppers enjoy significant discounts on their favorite products</td>
+        </tr>
+        <tr>
+            <td>5. Open-toed footwear ideal for summer</td><td>2. Home city of Myntra</td>
+        </tr>
+        <tr>
+            <td>6. A warm accessory worn around the neck, often made of wool or knit fabric.</td><td>4. A stylish garment typically worn by women</td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

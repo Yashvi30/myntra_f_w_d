@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4eff1; /* Light pink background */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #c2185b; /* Darker pink for the header */
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #e91e63; /* Pink border */
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+td.selected {
+    background-color: #ff4081; /* Bright pink for selection */
+}
+
+td.found {
+    background-color: #d5006d; /* Dark pink for found words */
+    color: white;
+    font-weight: bold;
+}
+
+td:hover {
+    background-color: #f48fb1; /* Light pink on hover */
+}
+
+#wordList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#wordList li {
+    font-size: 18px;
+    padding: 5px;
+    color: #c2185b; /* Darker pink for list items */
+}
+
+#wordList li:hover {
+    color: #880e4f; /* Even darker on hover */
+}
