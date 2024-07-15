@@ -49,9 +49,7 @@ extension AnimatedWidgetExtension on Widget {
     return Animate(
       effects: animationInfo.effects,
       child: this,
-      onPlay: (controller) => animationInfo.loop
-          ? controller.repeat(reverse: animationInfo.reverse)
-          : null,
+      onPlay: (controller) => {},
       onComplete: (controller) => !animationInfo.loop && animationInfo.reverse
           ? controller.reverse()
           : null,

@@ -330,19 +330,15 @@ class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
                                             crossAxisAlignment:
                                                 CrossAxisAlignment.start,
                                             children: [
-                                              Hero(
-                                                tag: 'locationImage',
-                                                transitionOnUserGestures: true,
-                                                child: ClipRRect(
-                                                  borderRadius:
-                                                      BorderRadius.circular(
-                                                          0.0),
-                                                  child: Image.network(
-                                                    'https://images.unsplash.com/photo-1485145782098-4f5fd605a66b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw1fHx0b3BzJTIwfGVufDB8fHx8MTcyMDg3OTA5MHww&ixlib=rb-4.0.3&q=80&w=1080',
-                                                    width: double.infinity,
-                                                    height: 174.0,
-                                                    fit: BoxFit.cover,
-                                                  ),
+                                              ClipRRect(
+                                                borderRadius:
+                                                    BorderRadius.circular(
+                                                        0.0),
+                                                child: Image.network(
+                                                  'https://images.unsplash.com/photo-1485145782098-4f5fd605a66b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw1fHx0b3BzJTIwfGVufDB8fHx8MTcyMDg3OTA5MHww&ixlib=rb-4.0.3&q=80&w=1080',
+                                                  width: double.infinity,
+                                                  height: 174.0,
+                                                  fit: BoxFit.cover,
                                                 ),
                                               ),
                                               Row(
@@ -525,20 +521,15 @@ class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
                                               crossAxisAlignment:
                                                   CrossAxisAlignment.start,
                                               children: [
-                                                Hero(
-                                                  tag: 'locationImage1',
-                                                  transitionOnUserGestures:
-                                                      true,
-                                                  child: ClipRRect(
-                                                    borderRadius:
-                                                        BorderRadius.circular(
-                                                            0.0),
-                                                    child: Image.network(
-                                                      'https://images.unsplash.com/photo-1598554747436-c9293d6a588f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw5fHxqZWFuc3xlbnwwfHx8fDE3MjA4NzcwOTR8MA&ixlib=rb-4.0.3&q=80&w=1080',
-                                                      width: double.infinity,
-                                                      height: 174.0,
-                                                      fit: BoxFit.cover,
-                                                    ),
+                                                ClipRRect(
+                                                  borderRadius:
+                                                      BorderRadius.circular(
+                                                          0.0),
+                                                  child: Image.network(
+                                                    'https://images.unsplash.com/photo-1598554747436-c9293d6a588f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw5fHxqZWFuc3xlbnwwfHx8fDE3MjA4NzcwOTR8MA&ixlib=rb-4.0.3&q=80&w=1080',
+                                                    width: double.infinity,
+                                                    height: 174.0,
+                                                    fit: BoxFit.cover,
                                                   ),
                                                 ),
                                                 Row(
@@ -723,19 +714,15 @@ class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
                                             crossAxisAlignment:
                                                 CrossAxisAlignment.start,
                                             children: [
-                                              Hero(
-                                                tag: 'locationImage2',
-                                                transitionOnUserGestures: true,
-                                                child: ClipRRect(
-                                                  borderRadius:
-                                                      BorderRadius.circular(
-                                                          0.0),
-                                                  child: Image.network(
-                                                    'https://images.unsplash.com/photo-1612722432474-b971cdcea546?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxM3x8ZHJlc3N8ZW58MHx8fHwxNzIwODc5NDQ3fDA&ixlib=rb-4.0.3&q=80&w=1080',
-                                                    width: double.infinity,
-                                                    height: 174.0,
-                                                    fit: BoxFit.cover,
-                                                  ),
+                                              ClipRRect(
+                                                borderRadius:
+                                                    BorderRadius.circular(
+                                                        0.0),
+                                                child: Image.network(
+                                                  'https://images.unsplash.com/photo-1612722432474-b971cdcea546?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxM3x8ZHJlc3N8ZW58MHx8fHwxNzIwODc5NDQ3fDA&ixlib=rb-4.0.3&q=80&w=1080',
+                                                  width: double.infinity,
+                                                  height: 174.0,
+                                                  fit: BoxFit.cover,
                                                 ),
                                               ),
                                               Row(

@@ -73,23 +73,19 @@ class _MasterclassCardWidgetState extends State<MasterclassCardWidget> {
             Stack(
               alignment: AlignmentDirectional(0.0, 1.0),
               children: [
-                Hero(
-                  tag: 'italyImage',
-                  transitionOnUserGestures: true,
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.only(
-                      bottomLeft: Radius.circular(0.0),
-                      bottomRight: Radius.circular(0.0),
-                      topLeft: Radius.circular(12.0),
-                      topRight: Radius.circular(12.0),
-                    ),
-                    child: Image.network(
-                      widget.imageUrl,
-                      width: double.infinity,
-                      height: 200.0,
-                      fit: BoxFit.cover,
-                      alignment: Alignment(-1.0, 0.0),
-                    ),
+                ClipRRect(
+                  borderRadius: BorderRadius.only(
+                    bottomLeft: Radius.circular(0.0),
+                    bottomRight: Radius.circular(0.0),
+                    topLeft: Radius.circular(12.0),
+                    topRight: Radius.circular(12.0),
+                  ),
+                  child: Image.network(
+                    widget.imageUrl,
+                    width: double.infinity,
+                    height: 200.0,
+                    fit: BoxFit.cover,
+                    alignment: Alignment(-1.0, 0.0),
                   ),
                 ),
                 Align(

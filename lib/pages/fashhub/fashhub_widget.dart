@@ -553,19 +553,15 @@ class _FashhubWidgetState extends State<FashhubWidget>
                                               onTap: () async {
                                                 context.pushNamed('Videopage');
                                               },
-                                              child: Hero(
-                                                tag: 'locationImage1',
-                                                transitionOnUserGestures: true,
-                                                child: ClipRRect(
-                                                  borderRadius:
-                                                      BorderRadius.circular(
-                                                          8.0),
-                                                  child: Image.network(
-                                                    'https://images.unsplash.com/photo-1587088155172-e9355df99c30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxOHx8cnVud2F5fGVufDB8fHx8MTcyMDg3NzY5OHww&ixlib=rb-4.0.3&q=80&w=1080',
-                                                    width: double.infinity,
-                                                    height: 276.0,
-                                                    fit: BoxFit.cover,
-                                                  ),
+                                              child: ClipRRect(
+                                                borderRadius:
+                                                    BorderRadius.circular(
+                                                        8.0),
+                                                child: Image.network(
+                                                  'https://images.unsplash.com/photo-1587088155172-e9355df99c30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxOHx8cnVud2F5fGVufDB8fHx8MTcyMDg3NzY5OHww&ixlib=rb-4.0.3&q=80&w=1080',
+                                                  width: double.infinity,
+                                                  height: 276.0,
+                                                  fit: BoxFit.cover,
                                                 ),
                                               ),
                                             ),
@@ -701,18 +697,14 @@ class _FashhubWidgetState extends State<FashhubWidget>
                                           alignment:
                                               AlignmentDirectional(0.0, 0.8),
                                           children: [
-                                            Hero(
-                                              tag: 'locationImage2',
-                                              transitionOnUserGestures: true,
-                                              child: ClipRRect(
-                                                borderRadius:
-                                                    BorderRadius.circular(8.0),
-                                                child: Image.network(
-                                                  'https://images.unsplash.com/photo-1457551859869-d4b7ab27184c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw1fHxiYWNrc3RhZ2V8ZW58MHx8fHwxNzIwODc3NzEyfDA&ixlib=rb-4.0.3&q=80&w=1080',
-                                                  width: double.infinity,
-                                                  height: 275.0,
-                                                  fit: BoxFit.cover,
-                                                ),
+                                            ClipRRect(
+                                              borderRadius:
+                                                  BorderRadius.circular(8.0),
+                                              child: Image.network(
+                                                'https://images.unsplash.com/photo-1457551859869-d4b7ab27184c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw1fHxiYWNrc3RhZ2V8ZW58MHx8fHwxNzIwODc3NzEyfDA&ixlib=rb-4.0.3&q=80&w=1080',
+                                                width: double.infinity,
+                                                height: 275.0,
+                                                fit: BoxFit.cover,
                                               ),
                                             ),
                                             Container(
@@ -847,18 +839,14 @@ class _FashhubWidgetState extends State<FashhubWidget>
                                           alignment:
                                               AlignmentDirectional(0.0, 0.8),
                                           children: [
-                                            Hero(
-                                              tag: 'locationImage3',
-                                              transitionOnUserGestures: true,
-                                              child: ClipRRect(
-                                                borderRadius:
-                                                    BorderRadius.circular(8.0),
-                                                child: Image.network(
-                                                  'https://images.unsplash.com/photo-1557777586-f6682739fcf3?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-                                                  width: double.infinity,
-                                                  height: 276.0,
-                                                  fit: BoxFit.cover,
-                                                ),
+                                            ClipRRect(
+                                              borderRadius:
+                                                  BorderRadius.circular(8.0),
+                                              child: Image.network(
+                                                'https://images.unsplash.com/photo-1557777586-f6682739fcf3?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                                                width: double.infinity,
+                                                height: 276.0,
+                                                fit: BoxFit.cover,
                                               ),
                                             ),
                                             Container(
@@ -993,18 +981,14 @@ class _FashhubWidgetState extends State<FashhubWidget>
                                           alignment:
                                               AlignmentDirectional(0.0, 0.8),
                                           children: [
-                                            Hero(
-                                              tag: 'locationImage4',
-                                              transitionOnUserGestures: true,
-                                              child: ClipRRect(
-                                                borderRadius:
-                                                    BorderRadius.circular(8.0),
-                                                child: Image.network(
-                                                  'https://images.unsplash.com/photo-1613801184329-4bf29a49225f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxNnx8dmludGFnZSUyMGNsb3RofGVufDB8fHx8MTcyMDg3NzgwNnww&ixlib=rb-4.0.3&q=80&w=1080',
-                                                  width: double.infinity,
-                                                  height: 276.0,
-                                                  fit: BoxFit.cover,
-                                                ),
+                                            ClipRRect(
+                                              borderRadius:
+                                                  BorderRadius.circular(8.0),
+                                              child: Image.network(
+                                                'https://images.unsplash.com/photo-1613801184329-4bf29a49225f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxNnx8dmludGFnZSUyMGNsb3RofGVufDB8fHx8MTcyMDg3NzgwNnww&ixlib=rb-4.0.3&q=80&w=1080',
+                                                width: double.infinity,
+                                                height: 276.0,
+                                                fit: BoxFit.cover,
                                               ),
                                             ),
                                             Container(
@@ -1196,18 +1180,14 @@ class _FashhubWidgetState extends State<FashhubWidget>
                                       crossAxisAlignment:
                                           CrossAxisAlignment.start,
                                       children: [
-                                        Hero(
-                                          tag: 'locationImage5',
-                                          transitionOnUserGestures: true,
-                                          child: ClipRRect(
-                                            borderRadius:
-                                                BorderRadius.circular(8.0),
-                                            child: Image.network(
-                                              'https://images.unsplash.com/photo-1520203126673-bf1d6fcebd2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwyM3x8dHJhZGl0aW9uYWx8ZW58MHx8fHwxNzIwODc3MDYyfDA&ixlib=rb-4.0.3&q=80&w=1080',
-                                              width: double.infinity,
-                                              height: 223.0,
-                                              fit: BoxFit.cover,
-                                            ),
+                                        ClipRRect(
+                                          borderRadius:
+                                              BorderRadius.circular(8.0),
+                                          child: Image.network(
+                                            'https://images.unsplash.com/photo-1520203126673-bf1d6fcebd2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwyM3x8dHJhZGl0aW9uYWx8ZW58MHx8fHwxNzIwODc3MDYyfDA&ixlib=rb-4.0.3&q=80&w=1080',
+                                            width: double.infinity,
+                                            height: 223.0,
+                                            fit: BoxFit.cover,
                                           ),
                                         ),
                                         Align(
@@ -1274,18 +1254,14 @@ class _FashhubWidgetState extends State<FashhubWidget>
                                         crossAxisAlignment:
                                             CrossAxisAlignment.start,
                                         children: [
-                                          Hero(
-                                            tag: 'locationImage6',
-                                            transitionOnUserGestures: true,
-                                            child: ClipRRect(
-                                              borderRadius:
-                                                  BorderRadius.circular(8.0),
-                                              child: Image.network(
-                                                'https://images.unsplash.com/photo-1541099649105-f69ad21f3246?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwzfHxqZWFuc3xlbnwwfHx8fDE3MjA4NzcwOTR8MA&ixlib=rb-4.0.3&q=80&w=1080',
-                                                width: double.infinity,
-                                                height: 223.0,
-                                                fit: BoxFit.cover,
-                                              ),
+                                          ClipRRect(
+                                            borderRadius:
+                                                BorderRadius.circular(8.0),
+                                            child: Image.network(
+                                              'https://images.unsplash.com/photo-1541099649105-f69ad21f3246?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwzfHxqZWFuc3xlbnwwfHx8fDE3MjA4NzcwOTR8MA&ixlib=rb-4.0.3&q=80&w=1080',
+                                              width: double.infinity,
+                                              height: 223.0,
+                                              fit: BoxFit.cover,
                                             ),
                                           ),
                                           Padding(
@@ -1341,18 +1317,14 @@ class _FashhubWidgetState extends State<FashhubWidget>
                                       crossAxisAlignment:
                                           CrossAxisAlignment.start,
                                       children: [
-                                        Hero(
-                                          tag: 'locationImage7',
-                                          transitionOnUserGestures: true,
-                                          child: ClipRRect(
-                                            borderRadius:
-                                                BorderRadius.circular(8.0),
-                                            child: Image.network(
-                                              'https://images.unsplash.com/photo-1461874759164-52a4ea8bdf59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw0fHx0aWVkeWV8ZW58MHx8fHwxNzIwODc3MTEwfDA&ixlib=rb-4.0.3&q=80&w=1080',
-                                              width: double.infinity,
-                                              height: 223.0,
-                                              fit: BoxFit.cover,
-                                            ),
+                                        ClipRRect(
+                                          borderRadius:
+                                              BorderRadius.circular(8.0),
+                                          child: Image.network(
+                                            'https://images.unsplash.com/photo-1461874759164-52a4ea8bdf59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw0fHx0aWVkeWV8ZW58MHx8fHwxNzIwODc3MTEwfDA&ixlib=rb-4.0.3&q=80&w=1080',
+                                            width: double.infinity,
+                                            height: 223.0,
+                                            fit: BoxFit.cover,
                                           ),
                                         ),
                                         Padding(

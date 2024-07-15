@@ -305,18 +305,14 @@ class _ChallengesCardsWidgetState extends State<ChallengesCardsWidget> {
                               ),
                             );
                           },
-                          child: Hero(
-                            tag: 'imageTag4',
-                            transitionOnUserGestures: true,
-                            child: ClipRRect(
-                              borderRadius: BorderRadius.circular(12),
-                              child: Image.asset(
-                                'assets/images/6468847.jpg',
-                                width: double.infinity,
-                                height: 145,
-                                fit: BoxFit.cover,
-                                alignment: Alignment(0, 0),
-                              ),
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(12),
+                            child: Image.asset(
+                              'assets/images/6468847.jpg',
+                              width: double.infinity,
+                              height: 145,
+                              fit: BoxFit.cover,
+                              alignment: Alignment(0, 0),
                             ),
                           ),
                         ),

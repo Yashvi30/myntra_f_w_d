@@ -20,6 +20,6 @@ class ProfileModel extends FlutterFlowModel<ProfileWidget> {
 
   @override
   void dispose() {
-    unfocusNode.dispose();
+    // unfocusNode.dispose();
   }
 }

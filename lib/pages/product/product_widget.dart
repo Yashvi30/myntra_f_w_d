@@ -65,17 +65,13 @@ class _ProductWidgetState extends State<ProductWidget>
                       children: [
                         Align(
                           alignment: AlignmentDirectional(0.0, 0.0),
-                          child: Hero(
-                            tag: 'productShoe',
-                            transitionOnUserGestures: true,
-                            child: ClipRRect(
-                              borderRadius: BorderRadius.circular(0.0),
-                              child: Image.network(
-                                'https://images.unsplash.com/photo-1582552938357-32b906df40cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxM3x8amVhbnN8ZW58MHx8fHwxNzIwODc3MDk0fDA&ixlib=rb-4.0.3&q=80&w=1080',
-                                width: double.infinity,
-                                height: double.infinity,
-                                fit: BoxFit.cover,
-                              ),
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(0.0),
+                            child: Image.network(
+                              'https://images.unsplash.com/photo-1582552938357-32b906df40cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxM3x8amVhbnN8ZW58MHx8fHwxNzIwODc3MDk0fDA&ixlib=rb-4.0.3&q=80&w=1080',
+                              width: double.infinity,
+                              height: double.infinity,
+                              fit: BoxFit.cover,
                             ),
                           ),
                         ),
