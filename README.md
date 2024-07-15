@@ -1,7 +1,3 @@
-# MyntraFWD
-
-A new Flutter project.
-
 ## Getting Started
 
 Project is built to run on the Flutter _stable_ release.
@@ -35,7 +31,7 @@ The Aimers team at Myntra Hackerramp 2024 presented innovative solutions to enha
 
 ### 3. Weekly Fashion Challenges
 - **Description:** Themed challenges for users to dress up and showcase their creativity.
-- **Rewards:** Discounts, exclusive items, Myntra vouchers.
+- **Rewards:** Discounts, exclusive items, Myntra vouchers. Additional rewards for using sustainable clothing methods.
 - **Benefits:** Encourages user participation and keeps the fashion game exciting.
 
 ### 4. Fashion Design Competitions
@@ -55,6 +51,13 @@ The Aimers team at Myntra Hackerramp 2024 presented innovative solutions to enha
 
 ### Economic Benefits
 - **Increased Sales:** Enhanced user engagement through interactive challenges and competitions drives higher conversion rates.
+- **Revenue Generation:** Monetization through transaction fees, premium features, and partnerships..
+
+### Environmental Benefits
+- **Reduced Waste:** Promotes the use of sustainable clothing, reducing the amount of fashion waste.
+- **Positive Global Impact:** Encourages eco-friendly fashion choices, contributing to the wellness of the environment.
+      #### Sustainability Rewards
+  * Using sustainable means of clothing in any of the challenges will earn users rewards and vouchers. Users can see how their contributions positively impact the environment.
 
 ### Social Benefits
 - **Community Building:** Fosters a supportive community around shared fashion interests, enhancing social interaction and collaboration.
@@ -63,7 +66,7 @@ The Aimers team at Myntra Hackerramp 2024 presented innovative solutions to enha
 - **Style Inspiration:** Helps users discover and develop their personal style through diverse content and user-generated fashion ideas.
 
 ### Tech Stack
-Flutter, firebase, firestore, riverpod, typescript, figma
+Flutter, Firebase, Firestore, Riverpod, Typescript, Figma
 
 ## Installation
 
@@ -75,6 +78,11 @@ Flutter, firebase, firestore, riverpod, typescript, figma
 2. Navigate to the project directory:
     ```sh
     cd myntra_f_w_d
+    ```
+
+3. Install Flutter dependencies:
+    ```sh
+    flutter pub get
     ```
 
 
