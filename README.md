@@ -61,7 +61,7 @@ The Aimers team at Myntra Hackerramp 2024 presented innovative solutions to enha
 - **Style Inspiration:** Helps users discover and develop their personal style through diverse content and user-generated fashion ideas.
 
 ### Tech Stack
-Flutter, Firebase, Firestore, Riverpod, Typescript, Figma
+Flutter, Firebase, Firestore, Riverpod, Typescript, Figma, HTML, CSS, JS
 
 ## Installation
 
