@@ -450,7 +450,7 @@ class _TrendsWidgetState extends State<TrendsWidget>
                                       mainAxisSize: MainAxisSize.max,
                                       children: [
                                         Text(
-                                          'Nike Air Shoe',
+                                          'Adidas Grey Shoe',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
