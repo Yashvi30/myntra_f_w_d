@@ -56,7 +56,8 @@ The Aimers team at Myntra Hackerramp 2024 presented innovative solutions to enha
 ### Environmental Benefits
 - **Reduced Waste:** Promotes the use of sustainable clothing, reducing the amount of fashion waste.
 - **Positive Global Impact:** Encourages eco-friendly fashion choices, contributing to the wellness of the environment.
-      #### Sustainability Rewards
+
+  #### Sustainability Rewards
   * Using sustainable means of clothing in any of the challenges will earn users rewards and vouchers. Users can see how their contributions positively impact the environment.
 
 ### Social Benefits
