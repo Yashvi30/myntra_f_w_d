@@ -1,4 +1,5 @@
 import '/components/masterclass_card_widget.dart';
+import '/components/challenges_cards_widget.dart';
 import '/components/top_nav_widget.dart';
 import '../../flutter_nav/flutter_flow_animations.dart';
 import '../../flutter_nav/flutter_flow_theme.dart';
@@ -1114,6 +1115,18 @@ class _FashhubWidgetState extends State<FashhubWidget>
                         ),
                       ),
                     ],
+                  ),
+                ),
+                Container(
+                  width: 354,
+                  height: 349,
+                  decoration: BoxDecoration(
+                    color: FlutterFlowTheme.of(context).secondaryBackground,
+                  ),
+                  child: wrapWithModel(
+                    model: _model.challengesCardsModel,
+                    updateCallback: () => setState(() {}),
+                    child: ChallengesCardsWidget(),
                   ),
                 ),
                 Container(

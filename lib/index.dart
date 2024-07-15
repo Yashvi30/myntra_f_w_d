@@ -8,3 +8,7 @@ export '/pages/videopage/videopage_widget.dart' show VideopageWidget;
 export '/pages/master_class_register/master_class_register_widget.dart'
     show MasterClassRegisterWidget;
 export '/pages/product/product_widget.dart' show ProductWidget;
+// export '/pages/SharedW/GroupWishlist' show GroupWishlistWidget;
+// export '/pages/SharedW/chatPage' show ChatPageWidget;
+// export '/pages/SharedW/GroupsPage' show GroupsPageWidget;
+// export '/pages/SharedW/GroupWishlist' show GroupWishlistWidget;

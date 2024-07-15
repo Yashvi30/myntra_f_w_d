@@ -1,4 +1,5 @@
 import '/components/masterclass_card_widget.dart';
+import '/components/challenges_cards_widget.dart';
 import '/components/top_nav_widget.dart';
 import '../../flutter_nav/flutter_flow_animations.dart';
 import '../../flutter_nav/flutter_flow_theme.dart';
@@ -24,6 +25,8 @@ class FashhubModel extends FlutterFlowModel<FashhubWidget> {
   late MasterclassCardModel masterclassCardModel2;
   // Model for MasterclassCard component.
   late MasterclassCardModel masterclassCardModel3;
+  // Model for ChallengesCards component.
+  late ChallengesCardsModel challengesCardsModel;
 
   @override
   void initState(BuildContext context) {
@@ -31,6 +34,7 @@ class FashhubModel extends FlutterFlowModel<FashhubWidget> {
     masterclassCardModel1 = createModel(context, () => MasterclassCardModel());
     masterclassCardModel2 = createModel(context, () => MasterclassCardModel());
     masterclassCardModel3 = createModel(context, () => MasterclassCardModel());
+    challengesCardsModel = createModel(context, () => ChallengesCardsModel());
   }
 
   @override
@@ -40,5 +44,6 @@ class FashhubModel extends FlutterFlowModel<FashhubWidget> {
     masterclassCardModel1.dispose();
     masterclassCardModel2.dispose();
     masterclassCardModel3.dispose();
+    challengesCardsModel.dispose();
   }
 }

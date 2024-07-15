@@ -348,7 +348,7 @@ class _VideopageWidgetState extends State<VideopageWidget>
                           alignment: AlignmentDirectional(0.0, 1.0),
                           child: Container(
                             width: double.infinity,
-                            height: MediaQuery.sizeOf(context).height * 0.87,
+                            height: MediaQuery.sizeOf(context).height * 0.90,
                             decoration: BoxDecoration(
                               gradient: LinearGradient(
                                 colors: [Color(0x00090F13), Color(0x991D2429)],
@@ -573,7 +573,7 @@ class _VideopageWidgetState extends State<VideopageWidget>
                         ),
                         Container(
                           width: double.infinity,
-                          height: MediaQuery.sizeOf(context).height * 0.87,
+                          height: MediaQuery.sizeOf(context).height * 0.90,
                           decoration: BoxDecoration(
                             gradient: LinearGradient(
                               colors: [Color(0x00090F13), Color(0x991D2429)],
