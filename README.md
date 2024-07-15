@@ -24,18 +24,19 @@ The Aimers team at Myntra Hackerramp 2024 presented innovative solutions to enha
 
 ## Main Features
 
-### 1. Weekly Fashion Challenges
-- **Description:** Themed challenges for users to showcase their creativity.
-- **Rewards:** Discounts, exclusive items, Myntra vouchers.
-- **Benefits:** Encourages user participation and keeps the fashion game exciting.
 
-### 2. Behind-the-Scenes Content
+### 1. Behind-the-Scenes Content
 - **Description:** Exclusive insights into fashion shows,manufacturing processes and photoshoots.
 - **Benefits:** Provides inspiration and a deeper connection to the fashion industry.
 
-### 3. Shared Wishlists with Group Chat Features
+### 2. Shared Wishlists with Group Chat Features
 - **Description:** Users can create and share wishlists and chat with fellow fashion enthusiasts,friends and family.
 - **Benefits:** Social interaction, trend discussion, and style tips exchange.
+
+### 3. Weekly Fashion Challenges
+- **Description:** Themed challenges for users to dress up and showcase their creativity.
+- **Rewards:** Discounts, exclusive items, Myntra vouchers.
+- **Benefits:** Encourages user participation and keeps the fashion game exciting.
 
 ### 4. Fashion Design Competitions
 - **Description:** Events for users to submit and vote on fashion designs.
