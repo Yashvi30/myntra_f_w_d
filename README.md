@@ -1,9 +1,3 @@
-## Getting Started
-
-Project is built to run on the Flutter _stable_ release.
-
-
-
 # Myntra Hackerramp 2024 - Aimers Team's Innovative Solutions
 
 ## Table of Contents
@@ -36,7 +30,7 @@ The Aimers team at Myntra Hackerramp 2024 presented innovative solutions to enha
 
 ### 4. Fashion Design Competitions
 - **Description:** Events for users to submit and vote on fashion designs.
-- **Rewards:** Winning designs get sold on Myntra.
+- **Rewards:** Winning designs get sold on Myntra and featured on myntra magazine.
 - **Benefits:** Platform for creativity, recognition, and involvement in fashion buzz.
 
 ### 5. Fashion Designers' Masterclasses
