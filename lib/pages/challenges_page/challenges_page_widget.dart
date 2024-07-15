@@ -119,10 +119,11 @@ class _ChallengesPageWidgetState extends State<ChallengesPageWidget>
                   Align(
                     alignment: AlignmentDirectional(0.0, -1.0),
                     child: Image.network(
-                      'https://images.unsplash.com/photo-1616427593347-c0d7817e7f88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxOXx8ZmFzaGlvbiUyMHNrZXRjaGluZ3xlbnwwfHx8fDE3MjEwMTEyMjB8MA&ixlib=rb-4.0.3&q=80&w=1080',
+                      'https://images.unsplash.com/photo-1529391409740-59f2cea08bc6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGVuaW0lMjBkYXlzfGVufDB8fDB8fHww',
                       width: double.infinity,
                       height: 340.0,
                       fit: BoxFit.cover,
+                      alignment: Alignment(0, 12),
                     ),
                   ),
                 ],
