@@ -300,13 +300,13 @@ class _ChallengesCardsWidgetState extends State<ChallengesCardsWidget> {
                                   ),
                                   allowRotation: false,
                                   tag: 'imageTag3',
-                                  useHeroAnimation: true,
+                                  useHeroAnimation: false,
                                 ),
                               ),
                             );
                           },
                           child: Hero(
-                            tag: 'imageTag3',
+                            tag: 'imageTag4',
                             transitionOnUserGestures: true,
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(12),
