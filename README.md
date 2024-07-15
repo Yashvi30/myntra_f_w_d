@@ -5,7 +5,7 @@ A new Flutter project.
 ## Getting Started
 
 Project is built to run on the Flutter _stable_ release.
-Tech stack: Flutter, firebase, firestore, riverpod, typescript, figma
+
 
 
 # Myntra Hackerramp 2024 - Aimers Team's Innovative Solutions
@@ -16,8 +16,7 @@ Tech stack: Flutter, firebase, firestore, riverpod, typescript, figma
 3. [Benefits](#benefits)
 4. [Tech Stack](#tech-stack)
 5. [Installation](#installation)
-6. [Usage](#usage)
-7. [License](#license)
+6. [License](#license)
 
 ## Introduction
 
@@ -31,7 +30,7 @@ The Aimers team at Myntra Hackerramp 2024 presented innovative solutions to enha
 - **Benefits:** Encourages user participation and keeps the fashion game exciting.
 
 ### 2. Behind-the-Scenes Content
-- **Description:** Exclusive insights into fashion shows and photoshoots.
+- **Description:** Exclusive insights into fashion shows,manufacturing processes and photoshoots.
 - **Benefits:** Provides inspiration and a deeper connection to the fashion industry.
 
 ### 3. Fashion Design Competitions
@@ -40,7 +39,7 @@ The Aimers team at Myntra Hackerramp 2024 presented innovative solutions to enha
 - **Benefits:** Platform for creativity, recognition, and involvement in fashion buzz.
 
 ### 4. Shared Wishlists with Chat Features
-- **Description:** Users can create and share wishlists and chat with fellow fashion enthusiasts using avatar stickers.
+- **Description:** Users can create and share wishlists and chat with fellow fashion enthusiasts,friends and family.
 - **Benefits:** Social interaction, trend discussion, and style tips exchange.
 
 ### 5. Fashion Designers' Masterclasses
@@ -54,12 +53,13 @@ The Aimers team at Myntra Hackerramp 2024 presented innovative solutions to enha
 ## Benefits
 
 ### Economic Benefits
-
+- **Increased Sales:** Enhanced user engagement through interactive challenges and competitions drives higher conversion rates.
 
 ### Social Benefits
-
+- **Community Building:** Fosters a supportive community around shared fashion interests, enhancing social interaction and collaboration.
 
 ### Personal Benefits
+- **Style Inspiration:** Helps users discover and develop their personal style through diverse content and user-generated fashion ideas.
 
 ### Tech Stack
 Flutter, firebase, firestore, riverpod, typescript, figma
@@ -75,9 +75,6 @@ Flutter, firebase, firestore, riverpod, typescript, figma
     ```sh
     cd myntra_f_w_d
     ```
-
-## Usage
-
 
 
 ## License
