@@ -1,0 +1,91 @@
+body {
+    background-color: #ffffff; /* Light pink background */
+    font-family: 'Arial', sans-serif; /* Font style */
+}
+
+#cross {
+    text-align: center;
+    width: 10px;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    border: 1px solid #f50057; /* Darker pink border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+#buttons {
+    width: 10%;
+    float: right;
+}
+
+tr {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+td {
+    height: 10px;
+    width: 10px;
+}
+
+#leftBox {
+    float: left;
+}
+
+#rightBox {
+    float: left;
+    clear: left;
+}
+
+.butt {
+    height: 20px;
+    width: 68px;
+    background: linear-gradient(to right, #f50057, #d81b60); /* Gradient background */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.butt:hover {
+    background: linear-gradient(to right, #d81b60, #f50057); /* Inverted gradient on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+#puzzel {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    border: 1px solid #f50057; /* Darker pink border */
+}
+
+.inputBox {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #f50057; /* Darker pink border */
+    text-align: center;
+    border-radius: 3px; /* Rounded corners */
+    transition: border-color 0.3s ease; /* Smooth border color transition */
+}
+
+.inputBox:focus {
+    border-color: #c51162; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px rgba(255, 20, 147, 0.5); /* Glow effect */
+}
+
+#hintsTable {
+    width: 300px;
+    float: left;
+    clear: left;
+}
+
+#hintsTable td {
+    color: #d81b60; /* Hints text color */
+    font-weight: bold; /* Bold hints */
+}
